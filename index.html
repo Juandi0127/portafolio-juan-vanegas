@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juan Vanegas — Full Stack Developer from Barranquilla, Colombia. 16-year-old developer with 10+ years of programming experience specializing in web apps, bots, and AI tools.">
+    <meta property="og:title" content="Juan Vanegas — Developer">
+    <meta property="og:description" content="Full Stack Developer · Python · JavaScript · SQL · C++ · Lua">
+    <meta property="og:type" content="website">
+    <title>Juan Vanegas — Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./static/style/styles.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span><span class="logo-name">Juandi</span><span class="logo-bracket">/&gt;</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about"    data-en="About"    data-es="Sobre mí">About</a>
+                <a href="#skills"   data-en="Skills"   data-es="Habilidades">Skills</a>
+                <a href="#projects" data-en="Projects" data-es="Proyectos">Projects</a>
+                <a href="#certs"    data-en="Certificates" data-es="Certificados">Certificates</a>
+                <a href="#contact"  data-en="Contact"  data-es="Contacto">Contact</a>
+                <button class="lang-toggle" id="langToggle">ES</button>
+            </div>
+            <button class="nav-mobile-btn" id="mobileBtn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="nav-mobile-menu" id="mobileMenu">
+            <a href="#about"    data-en="About"    data-es="Sobre mí">About</a>
+            <a href="#skills"   data-en="Skills"   data-es="Habilidades">Skills</a>
+            <a href="#projects" data-en="Projects" data-es="Proyectos">Projects</a>
+            <a href="#certs"    data-en="Certificates" data-es="Certificados">Certificates</a>
+            <a href="#contact"  data-en="Contact"  data-es="Contacto">Contact</a>
+            <button class="lang-toggle" id="langToggleMobile">ES</button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span data-en="Open to opportunities" data-es="Abierto a oportunidades">Open to opportunities</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="hero-greeting" data-en="Hi, I'm" data-es="Hola, soy">Hi, I'm</span>
+                <span class="hero-name">Juan Vanegas</span>
+            </h1>
+            <p class="hero-subtitle" data-en="Full Stack Developer · 16 y/o · Coding since age 6" data-es="Desarrollador Full Stack · 16 años · Programando desde los 6">Full Stack Developer · 16 y/o · Coding since age 6</p>
+            <p class="hero-description" data-en="I build web apps, Discord bots, and AI-powered tools. Based in Barranquilla, Colombia." data-es="Construyo aplicaciones web, bots de Discord y herramientas con IA. Desde Barranquilla, Colombia.">
+                I build web apps, Discord bots, and AI-powered tools. Based in Barranquilla, Colombia.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary" data-en="View Projects" data-es="Ver Proyectos">View Projects</a>
+                <a href="https://github.com/Juandi0127" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/Juandi0127" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/j.vanegass/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://discord.com/users/975849415300505643" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+                <a href="mailto:vanegasarrietajuandiego@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator"></div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title reveal" data-en="About Me" data-es="Sobre Mí">About Me</h2>
+            <div class="about-grid reveal">
+                <div class="about-photo">
+                    <div class="photo-frame">
+                        <img src="./static/img/foto juandi.jpeg" alt="Juan Vanegas">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p data-en="I'm Juan Vanegas, a 16-year-old self-taught developer from Barranquilla, Colombia. I discovered programming at age 6 and haven't stopped since — over a decade of building real software for real clients." data-es="Soy Juan Vanegas, un desarrollador autodidacta de 16 años de Barranquilla, Colombia. Descubrí la programación a los 6 años y no he parado — más de una década construyendo software real para clientes reales.">
+                        I'm Juan Vanegas, a 16-year-old self-taught developer from Barranquilla, Colombia. I discovered programming at age 6 and haven't stopped since — over a decade of building real software for real clients.
+                    </p>
+                    <p data-en="My passion is backend development and web applications. I've delivered commissioned projects for institutions and businesses, and I love building tools that solve real problems — from AI voice assistants to full library management systems." data-es="Mi pasión es el desarrollo backend y las aplicaciones web. He entregado proyectos por encargo a instituciones y empresas, y me encanta construir herramientas que resuelven problemas reales — desde asistentes de voz con IA hasta sistemas completos de gestión de bibliotecas.">
+                        My passion is backend development and web applications. I've delivered commissioned projects for institutions and businesses, and I love building tools that solve real problems — from AI voice assistants to full library management systems.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label" data-en="Years coding" data-es="Años programando">Years coding</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label" data-en="Projects shipped" data-es="Proyectos lanzados">Projects shipped</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label" data-en="Languages" data-es="Lenguajes">Languages</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title reveal" data-en="Skills" data-es="Habilidades">Skills</h2>
+            <p class="section-subtitle reveal" data-en="Technologies I work with" data-es="Tecnologías con las que trabajo">Technologies I work with</p>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <h3 data-en="Languages" data-es="Lenguajes">Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Lua</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <h3 data-en="Frameworks & Libraries" data-es="Frameworks y Librerías">Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Flask</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">Discord.py</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <h3 data-en="Databases & Tools" data-es="Bases de Datos y Herramientas">Databases & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">REST APIs</span>
+                        <span class="tag">Discord API</span>
+                        <span class="tag">Google APIs</span>
+                        <span class="tag">Llama (LLM)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title reveal" data-en="Projects" data-es="Proyectos">Projects</h2>
+            <p class="section-subtitle reveal" data-en="Things I've built" data-es="Cosas que he construido">Things I've built</p>
+            <div class="projects-grid">
+
+                <!-- ENSDB Library — featured -->
+                <div class="project-card project-featured reveal">
+                    <div class="project-img">
+                        <img src="./static/img/ENSBD 1.jpeg" alt="ENSDB Library">
+                        <div class="project-overlay">
+                            <a href="https://www.ensdblibrary.online" target="_blank" class="overlay-btn" data-en="Live Demo" data-es="Ver en vivo">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <h3 class="project-name">ENSDB Library</h3>
+                            <span class="badge badge-live" data-en="Live" data-es="En vivo">Live</span>
+                        </div>
+                        <p class="project-desc" data-en="Virtual library system for Escuela Normal Superior del Distrito de Barranquilla — a complete full-stack solution for managing books, users, loans, and the school's digital catalog." data-es="Sistema de biblioteca virtual para la Escuela Normal Superior del Distrito de Barranquilla — una solución full-stack completa para gestión de libros, usuarios, préstamos y el catálogo digital del colegio.">
+                            Virtual library system for Escuela Normal Superior del Distrito de Barranquilla — a complete full-stack solution for managing books, users, loans, and the school's digital catalog.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span><span>Flask</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.ensdblibrary.online" target="_blank" class="proj-btn proj-btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span data-en="Live Site" data-es="Sitio en vivo">Live Site</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HaxSuite -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="./static/img/haxsuite 1 .jpeg" alt="HaxSuite">
+                        <div class="project-overlay">
+                            <a href="https://discord.gg/DNxSYNpHf9" target="_blank" class="overlay-btn" data-en="Discord" data-es="Discord">Discord</a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <h3 class="project-name">HaxSuite</h3>
+                        </div>
+                        <p class="project-desc" data-en="Real-time football league leaderboard website. Commissioned project displaying top scorers, assists, and live stats." data-es="Sitio web de clasificaciones en tiempo real para una liga de fútbol. Proyecto por encargo con goleadores, asistencias y estadísticas en vivo.">
+                            Real-time football league leaderboard website. Commissioned project displaying top scorers, assists, and live stats.
+                        </p>
+                        <div class="project-tech">
+                            <span>Node.js</span><span>Express</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://discord.gg/DNxSYNpHf9" target="_blank" class="proj-btn">
+                                <i class="fab fa-discord"></i> Discord
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- JX — AI Voice Assistant -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="./static/img/WhatsApp Image 2026-04-20 at 8.46.31 PM.jpeg" alt="JX - AI Voice Assistant">
+                        <div class="project-overlay">
+                            <span class="overlay-btn" data-en="Personal Project" data-es="Proyecto Personal">Personal Project</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <h3 class="project-name">JX — AI Assistant</h3>
+                            <span class="badge badge-new">New</span>
+                        </div>
+                        <p class="project-desc" data-en="My personal AI voice assistant. JX listens via microphone, answers questions with a local Llama model, manages reminders, accesses my computer, and integrates Google APIs (Maps, Gmail, and more) — all running locally." data-es="Mi asistente de voz personal con IA. JX escucha por micrófono, responde con un modelo Llama local, gestiona recordatorios, accede a mi computador e integra APIs de Google (Maps, Gmail y más) — todo corriendo de forma local.">
+                            My personal AI voice assistant. JX listens via microphone, answers questions with a local Llama model, manages reminders, accesses my computer, and integrates Google APIs (Maps, Gmail, and more) — all running locally.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span><span>Llama (LLM)</span><span>HTML</span><span>CSS</span><span>JS</span><span>Google APIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DG Market Bot -->
+                <div class="project-card reveal">
+                    <div class="project-img project-img-placeholder grad-blue">
+                        <i class="fab fa-discord placeholder-icon"></i>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <h3 class="project-name">DG Market Bot</h3>
+                        </div>
+                        <p class="project-desc" data-en="Commissioned Discord bot that fully manages an e-commerce platform and server — ~5,000 lines of Python handling orders, inventory, users, and automated workflows." data-es="Bot de Discord por encargo que gestiona completamente una plataforma de e-commerce y un servidor — ~5,000 líneas de Python con pedidos, inventario, usuarios y flujos automatizados.">
+                            Commissioned Discord bot that fully manages an e-commerce platform and server — ~5,000 lines of Python handling orders, inventory, users, and automated workflows.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span><span>Discord.py</span><span>Discord API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://discord.com/oauth2/authorize?client_id=1393798481319165982" target="_blank" class="proj-btn">
+                                <i class="fab fa-discord"></i>
+                                <span data-en="Add Bot" data-es="Añadir Bot">Add Bot</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pick The Right Color -->
+                <div class="project-card reveal">
+                    <div class="project-img project-img-placeholder grad-green">
+                        <i class="fas fa-gamepad placeholder-icon"></i>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <h3 class="project-name">Pick The Right Color</h3>
+                            <span class="badge badge-alpha">Alpha</span>
+                        </div>
+                        <p class="project-desc" data-en="Collaborative Roblox game built with a team of developers using Lua in Roblox Studio. Currently in alpha with ongoing updates." data-es="Juego de Roblox colaborativo construido con un equipo de desarrolladores usando Lua en Roblox Studio. Actualmente en alfa con actualizaciones continuas.">
+                            Collaborative Roblox game built with a team of developers using Lua in Roblox Studio. Currently in alpha with ongoing updates.
+                        </p>
+                        <div class="project-tech">
+                            <span>Lua</span><span>Roblox Studio</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.roblox.com/es/games/110120511588833/Pick-The-Right-Color" target="_blank" class="proj-btn">
+                                <i class="fas fa-gamepad"></i>
+                                <span data-en="Play" data-es="Jugar">Play</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CERTIFICATES ===== -->
+    <section id="certs">
+        <div class="container">
+            <h2 class="section-title reveal" data-en="Certificates" data-es="Certificados">Certificates</h2>
+            <p class="section-subtitle reveal" data-en="Courses and professional certifications" data-es="Cursos y certificaciones profesionales">Courses and professional certifications</p>
+            <div class="certs-grid" id="certsGrid">
+
+                <div class="cert-card reveal">
+                    <img src="./static/img/WhatsApp Image 2026-04-20 at 8.44.56 PM (2).jpeg" alt="Diploma en Técnicas Avanzadas de Programación y Automatización con Python">
+                    <div class="cert-card-info">
+                        <p data-en="Advanced Python Programming & Automation" data-es="Técnicas Avanzadas de Programación y Automatización con Python">Advanced Python Programming & Automation</p>
+                        <span class="cert-issuer">STEAM Academy · 2026</span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal">
+                    <img src="./static/img/WhatsApp Image 2026-04-20 at 8.44.56 PM (1).jpeg" alt="Diploma Profesional en Python, SQL y Ciencia de Datos">
+                    <div class="cert-card-info">
+                        <p data-en="Professional Diploma in Python, SQL & Data Science" data-es="Diploma Profesional en Python, SQL y Ciencia de Datos">Professional Diploma in Python, SQL & Data Science</p>
+                        <span class="cert-issuer">STEAM Academy · 2025</span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal">
+                    <img src="./static/img/WhatsApp Image 2026-04-20 at 8.44.56 PM.jpeg" alt="Certificado de Finalización — Robótica y Programación">
+                    <div class="cert-card-info">
+                        <p data-en="Robotics & Programming — Completion Certificate" data-es="Certificado de Finalización — Robótica y Programación">Robotics & Programming — Completion Certificate</p>
+                        <span class="cert-issuer">RobotiKids · 2020</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title reveal" data-en="Contact" data-es="Contacto">Contact</h2>
+            <p class="section-subtitle reveal" data-en="Let's work together or just say hi!" data-es="¡Trabajemos juntos o simplemente saluda!">Let's work together or just say hi!</p>
+            <div class="contact-grid">
+                <a href="mailto:vanegasarrietajuandiego@gmail.com" class="contact-card reveal">
+                    <i class="fas fa-envelope"></i>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">vanegasarrietajuandiego@gmail.com</span>
+                </a>
+                <a href="https://github.com/Juandi0127" target="_blank" class="contact-card reveal">
+                    <i class="fab fa-github"></i>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">Juandi0127</span>
+                </a>
+                <a href="https://www.instagram.com/j.vanegass/" target="_blank" class="contact-card reveal">
+                    <i class="fab fa-instagram"></i>
+                    <span class="contact-label">Instagram</span>
+                    <span class="contact-value">@j.vanegass</span>
+                </a>
+                <a href="https://discord.com/users/975849415300505643" target="_blank" class="contact-card reveal">
+                    <i class="fab fa-discord"></i>
+                    <span class="contact-label">Discord</span>
+                    <span class="contact-value">jacedjd0127</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container footer-inner">
+            <span class="footer-logo"><span class="logo-bracket">&lt;</span>Juandi<span class="logo-bracket">/&gt;</span></span>
+            <p data-en="Built with HTML, CSS & JavaScript" data-es="Construido con HTML, CSS y JavaScript">Built with HTML, CSS & JavaScript</p>
+            <p class="footer-copy">© 2025 Juan Vanegas</p>
+        </div>
+    </footer>
+
+    <script src="./static/js/script.js"></script>
+</body>
+</html>
