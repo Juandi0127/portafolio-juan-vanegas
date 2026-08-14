@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Juan Vanegas — Full Stack Developer from Barranquilla, Colombia. 16-year-old developer with 10+ years of programming experience specializing in web apps, bots, and AI tools.">
-    <meta property="og:title" content="Juan Vanegas — Developer">
-    <meta property="og:description" content="Full Stack Developer · Python · JavaScript · SQL · C++ · Lua">
+    <meta name="description" content="Juan Vanegas — Full Stack Developer and CEO of nodo.dev, from Barranquilla, Colombia. I build web apps and AI-agent automations, and I lead the Crack The Code research seedbed.">
+    <meta property="og:title" content="Juan Vanegas — Developer · CEO @ nodo.dev">
+    <meta property="og:description" content="Web apps, AI-agent automations and educational games · Python · JavaScript · SQL · C++ · Lua">
     <meta property="og:type" content="website">
+    <meta name="theme-color" content="#050508">
     <title>Juan Vanegas — Developer</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="./static/style/styles.css">
+    <link rel="stylesheet" href="./static/style/game.css">
 </head>
 <body>
 
@@ -24,11 +26,12 @@
                 <span class="logo-bracket">&lt;</span><span class="logo-name">Juandi</span><span class="logo-bracket">/&gt;</span>
             </a>
             <div class="nav-links">
-                <a href="#about"    data-en="About"    data-es="Sobre mí">About</a>
-                <a href="#skills"   data-en="Skills"   data-es="Habilidades">Skills</a>
-                <a href="#projects" data-en="Projects" data-es="Proyectos">Projects</a>
-                <a href="#certs"    data-en="Certificates" data-es="Certificados">Certificates</a>
-                <a href="#contact"  data-en="Contact"  data-es="Contacto">Contact</a>
+                <a href="#about"      data-en="About"    data-es="Sobre mí">About</a>
+                <a href="#services"   data-en="nodo.dev" data-es="nodo.dev">nodo.dev</a>
+                <a href="#projects"   data-en="Projects" data-es="Proyectos">Projects</a>
+                <a href="#game"       data-en="Play"     data-es="Jugar">Play</a>
+                <a href="#certs"      data-en="Awards"   data-es="Logros">Awards</a>
+                <a href="#contact"    data-en="Contact"  data-es="Contacto">Contact</a>
                 <button class="lang-toggle" id="langToggle">ES</button>
             </div>
             <button class="nav-mobile-btn" id="mobileBtn" aria-label="Menu">
@@ -36,11 +39,12 @@
             </button>
         </div>
         <div class="nav-mobile-menu" id="mobileMenu">
-            <a href="#about"    data-en="About"    data-es="Sobre mí">About</a>
-            <a href="#skills"   data-en="Skills"   data-es="Habilidades">Skills</a>
-            <a href="#projects" data-en="Projects" data-es="Proyectos">Projects</a>
-            <a href="#certs"    data-en="Certificates" data-es="Certificados">Certificates</a>
-            <a href="#contact"  data-en="Contact"  data-es="Contacto">Contact</a>
+            <a href="#about"      data-en="About"    data-es="Sobre mí">About</a>
+            <a href="#services"   data-en="nodo.dev" data-es="nodo.dev">nodo.dev</a>
+            <a href="#projects"   data-en="Projects" data-es="Proyectos">Projects</a>
+            <a href="#game"       data-en="Play"     data-es="Jugar">Play</a>
+            <a href="#certs"      data-en="Awards"   data-es="Logros">Awards</a>
+            <a href="#contact"    data-en="Contact"  data-es="Contacto">Contact</a>
             <button class="lang-toggle" id="langToggleMobile">ES</button>
         </div>
     </nav>
@@ -53,27 +57,30 @@
         <div class="hero-content">
             <div class="hero-badge">
                 <span class="badge-dot"></span>
-                <span data-en="Open to opportunities" data-es="Abierto a oportunidades">Open to opportunities</span>
+                <span data-en="CEO at nodo.dev · Open to projects" data-es="CEO en nodo.dev · Abierto a proyectos">CEO at nodo.dev · Open to projects</span>
             </div>
             <h1 class="hero-title">
                 <span class="hero-greeting" data-en="Hi, I'm" data-es="Hola, soy">Hi, I'm</span>
                 <span class="hero-name">Juan Vanegas</span>
             </h1>
-            <p class="hero-subtitle" data-en="Full Stack Developer · 16 y/o · Coding since age 6" data-es="Desarrollador Full Stack · 16 años · Programando desde los 6">Full Stack Developer · 16 y/o · Coding since age 6</p>
-            <p class="hero-description" data-en="I build web apps, Discord bots, and AI-powered tools. Based in Barranquilla, Colombia." data-es="Construyo aplicaciones web, bots de Discord y herramientas con IA. Desde Barranquilla, Colombia.">
-                I build web apps, Discord bots, and AI-powered tools. Based in Barranquilla, Colombia.
+            <p class="hero-subtitle" data-en="Full Stack Developer · AI Automation · 16 y/o" data-es="Desarrollador Full Stack · Automatización con IA · 16 años">Full Stack Developer · AI Automation · 16 y/o</p>
+            <p class="hero-description" data-en="I build web apps and automated solutions powered by AI agents. I lead the Crack The Code research seedbed. Based in Barranquilla, Colombia." data-es="Construyo aplicaciones web y soluciones automatizadas con agentes de IA. Lidero el semillero de investigación Crack The Code. Desde Barranquilla, Colombia.">
+                I build web apps and automated solutions powered by AI agents. I lead the Crack The Code research seedbed. Based in Barranquilla, Colombia.
             </p>
             <div class="hero-actions">
                 <a href="#projects" class="btn btn-primary" data-en="View Projects" data-es="Ver Proyectos">View Projects</a>
-                <a href="https://github.com/Juandi0127" target="_blank" class="btn btn-outline">
-                    <i class="fab fa-github"></i> GitHub
+                <a href="#game" class="btn btn-outline">
+                    <i class="fas fa-gamepad"></i>
+                    <span data-en="Play my game" data-es="Juega mi videojuego">Play my game</span>
                 </a>
             </div>
             <div class="hero-socials">
-                <a href="https://github.com/Juandi0127" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/j.vanegass/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://discord.com/users/975849415300505643" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
-                <a href="mailto:vanegasarrietajuandiego@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/Juandi0127" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/nodo.dev/" target="_blank" rel="noopener" title="nodo.dev" aria-label="Instagram nodo.dev"><i class="fas fa-diagram-project"></i></a>
+                <a href="https://www.instagram.com/j.vanegass/" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@juamdi.ww" target="_blank" rel="noopener" title="TikTok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://discord.com/users/975849415300505643" target="_blank" rel="noopener" title="Discord" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                <a href="mailto:vanegasarrietajuandiego@gmail.com" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
         <div class="hero-scroll-indicator"></div>
@@ -86,15 +93,18 @@
             <div class="about-grid reveal">
                 <div class="about-photo">
                     <div class="photo-frame">
-                        <img src="./static/img/foto juandi.jpeg" alt="Juan Vanegas">
+                        <img src="./static/img/foto juandi.jpeg" alt="Juan Vanegas" width="240" height="240">
                     </div>
                 </div>
                 <div class="about-text">
-                    <p data-en="I'm Juan Vanegas, a 16-year-old self-taught developer from Barranquilla, Colombia. I discovered programming at age 6 and haven't stopped since — over a decade of building real software for real clients." data-es="Soy Juan Vanegas, un desarrollador autodidacta de 16 años de Barranquilla, Colombia. Descubrí la programación a los 6 años y no he parado — más de una década construyendo software real para clientes reales.">
-                        I'm Juan Vanegas, a 16-year-old self-taught developer from Barranquilla, Colombia. I discovered programming at age 6 and haven't stopped since — over a decade of building real software for real clients.
+                    <p data-en="I'm Juan Vanegas, a 16-year-old developer from Barranquilla, Colombia. I wrote my first lines of code at age 6 and never stopped — that's over a decade of learning, breaking things and rebuilding them." data-es="Soy Juan Vanegas, desarrollador de 16 años de Barranquilla, Colombia. Escribí mis primeras líneas de código a los 6 años y no he parado — más de una década aprendiendo, rompiendo cosas y volviéndolas a armar.">
+                        I'm Juan Vanegas, a 16-year-old developer from Barranquilla, Colombia. I wrote my first lines of code at age 6 and never stopped — that's over a decade of learning, breaking things and rebuilding them.
                     </p>
-                    <p data-en="My passion is backend development and web applications. I've delivered commissioned projects for institutions and businesses, and I love building tools that solve real problems — from AI voice assistants to full library management systems." data-es="Mi pasión es el desarrollo backend y las aplicaciones web. He entregado proyectos por encargo a instituciones y empresas, y me encanta construir herramientas que resuelven problemas reales — desde asistentes de voz con IA hasta sistemas completos de gestión de bibliotecas.">
-                        My passion is backend development and web applications. I've delivered commissioned projects for institutions and businesses, and I love building tools that solve real problems — from AI voice assistants to full library management systems.
+                    <p data-en="About two years ago I made the jump from personal projects to real work: since then I've delivered commissioned software to institutions and businesses. My strong suit is backend, web applications and — above all — automated solutions built around AI agents." data-es="Hace unos dos años di el salto de los proyectos personales al trabajo real: desde entonces he entregado software por encargo a instituciones y negocios. Mi fuerte es el backend, las aplicaciones web y —sobre todo— las soluciones automatizadas con agentes de IA.">
+                        About two years ago I made the jump from personal projects to real work: since then I've delivered commissioned software to institutions and businesses. My strong suit is backend, web applications and — above all — automated solutions built around AI agents.
+                    </p>
+                    <p data-en="I run nodo.dev, where I help businesses get rid of repetitive work, and I lead the Crack The Code research seedbed at Escuela Normal Superior del Distrito de Barranquilla. When I'm not building, I make content about programming and AI." data-es="Dirijo nodo.dev, donde ayudo a los negocios a quitarse de encima el trabajo repetitivo, y lidero el semillero de investigación Crack The Code en la Escuela Normal Superior del Distrito de Barranquilla. Cuando no estoy construyendo, creo contenido sobre programación e IA.">
+                        I run nodo.dev, where I help businesses get rid of repetitive work, and I lead the Crack The Code research seedbed at Escuela Normal Superior del Distrito de Barranquilla. When I'm not building, I make content about programming and AI.
                     </p>
                     <div class="about-stats">
                         <div class="stat">
@@ -102,14 +112,77 @@
                             <span class="stat-label" data-en="Years coding" data-es="Años programando">Years coding</span>
                         </div>
                         <div class="stat">
-                            <span class="stat-number">5+</span>
-                            <span class="stat-label" data-en="Projects shipped" data-es="Proyectos lanzados">Projects shipped</span>
+                            <span class="stat-number">2</span>
+                            <span class="stat-label" data-en="Years with clients" data-es="Años con clientes">Years with clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label" data-en="Clients served" data-es="Clientes atendidos">Clients served</span>
                         </div>
                         <div class="stat">
                             <span class="stat-number">7+</span>
                             <span class="stat-label" data-en="Languages" data-es="Lenguajes">Languages</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NODO.DEV / SERVICES ===== -->
+    <section id="services">
+        <div class="container">
+            <div class="brand-head reveal">
+                <div class="brand-mark">
+                    <img class="brand-logo" src="./static/img/nodo-logo.png" alt="nodo.dev" width="34" height="34">
+                    <span class="brand-name">nodo<span class="brand-tld">.dev</span></span>
+                </div>
+                <span class="brand-role" data-en="Founder &amp; CEO" data-es="Fundador y CEO">Founder &amp; CEO</span>
+            </div>
+            <h2 class="section-title reveal" data-en="Automation with AI agents" data-es="Automatización con agentes de IA">Automation with AI agents</h2>
+            <p class="section-subtitle reveal" data-en="I design systems that take the repetitive work off your team's hands." data-es="Diseño sistemas que le quitan a tu equipo el trabajo repetitivo de encima.">I design systems that take the repetitive work off your team's hands.</p>
+
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-robot"></i></div>
+                    <h3 data-en="Custom AI agents" data-es="Agentes de IA a medida">Custom AI agents</h3>
+                    <p data-en="Assistants that answer, classify, draft and actually execute tasks — connected to the tools the business already uses." data-es="Asistentes que responden, clasifican, redactan y ejecutan tareas de verdad — conectados a las herramientas que el negocio ya usa.">
+                        Assistants that answer, classify, draft and actually execute tasks — connected to the tools the business already uses.
+                    </p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-gears"></i></div>
+                    <h3 data-en="Process automation" data-es="Automatización de procesos">Process automation</h3>
+                    <p data-en="Flows that kill the manual grind: reports, emails, inventory, order tracking and customer follow-up running on their own." data-es="Flujos que acaban con el trabajo manual: reportes, correos, inventario, seguimiento de pedidos y atención al cliente corriendo solos.">
+                        Flows that kill the manual grind: reports, emails, inventory, order tracking and customer follow-up running on their own.
+                    </p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-window-maximize"></i></div>
+                    <h3 data-en="Web apps &amp; dashboards" data-es="Apps web y paneles">Web apps &amp; dashboards</h3>
+                    <p data-en="Sites, internal panels and management systems built to fit how the business actually works — not the other way around." data-es="Sitios, paneles internos y sistemas de gestión hechos a la medida de cómo funciona el negocio — no al revés.">
+                        Sites, internal panels and management systems built to fit how the business actually works — not the other way around.
+                    </p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-plug"></i></div>
+                    <h3 data-en="Bots &amp; integrations" data-es="Bots e integraciones">Bots &amp; integrations</h3>
+                    <p data-en="Discord and WhatsApp bots, Google Workspace, payment gateways and custom REST APIs talking to each other." data-es="Bots de Discord y WhatsApp, Google Workspace, pasarelas de pago y APIs REST propias hablando entre sí.">
+                        Discord and WhatsApp bots, Google Workspace, payment gateways and custom REST APIs talking to each other.
+                    </p>
+                </div>
+            </div>
+
+            <div class="brand-cta reveal">
+                <p data-en="Got a process that eats your team's time? Let's automate it." data-es="¿Tienes un proceso que le come el tiempo a tu equipo? Automaticémoslo.">Got a process that eats your team's time? Let's automate it.</p>
+                <div class="brand-cta-actions">
+                    <a href="https://www.instagram.com/nodo.dev/" target="_blank" rel="noopener" class="btn btn-primary">
+                        <i class="fab fa-instagram"></i> @nodo.dev
+                    </a>
+                    <a href="mailto:vanegasarrietajuandiego@gmail.com" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i>
+                        <span data-en="Write to me" data-es="Escríbeme">Write to me</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -126,6 +199,7 @@
                     <div class="skill-tags">
                         <span class="tag">Python</span>
                         <span class="tag">JavaScript</span>
+                        <span class="tag">C#</span>
                         <span class="tag">HTML</span>
                         <span class="tag">CSS</span>
                         <span class="tag">SQL</span>
@@ -134,25 +208,115 @@
                     </div>
                 </div>
                 <div class="skill-card reveal">
-                    <h3 data-en="Frameworks & Libraries" data-es="Frameworks y Librerías">Frameworks & Libraries</h3>
+                    <h3 data-en="Frameworks &amp; Engines" data-es="Frameworks y Motores">Frameworks &amp; Engines</h3>
                     <div class="skill-tags">
                         <span class="tag">Flask</span>
                         <span class="tag">Node.js</span>
                         <span class="tag">Express</span>
                         <span class="tag">Discord.py</span>
+                        <span class="tag">Unity</span>
                     </div>
                 </div>
                 <div class="skill-card reveal">
-                    <h3 data-en="Databases & Tools" data-es="Bases de Datos y Herramientas">Databases & Tools</h3>
+                    <h3 data-en="AI &amp; Automation" data-es="IA y Automatización">AI &amp; Automation</h3>
+                    <div class="skill-tags">
+                        <span class="tag">AI Agents</span>
+                        <span class="tag">Llama (LLM)</span>
+                        <span class="tag">Prompt Engineering</span>
+                        <span class="tag">Speech-to-Text</span>
+                        <span class="tag">Workflow Automation</span>
+                        <span class="tag">WhatsApp Automation</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <h3 data-en="Databases &amp; Tools" data-es="Bases de Datos y Herramientas">Databases &amp; Tools</h3>
                     <div class="skill-tags">
                         <span class="tag">MySQL</span>
                         <span class="tag">Git</span>
                         <span class="tag">REST APIs</span>
                         <span class="tag">Discord API</span>
                         <span class="tag">Google APIs</span>
-                        <span class="tag">Llama (LLM)</span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LEADERSHIP &amp; COMMUNITY ===== -->
+    <section id="leadership">
+        <div class="container">
+            <h2 class="section-title reveal" data-en="Leadership &amp; Community" data-es="Liderazgo y Comunidad">Leadership &amp; Community</h2>
+            <p class="section-subtitle reveal" data-en="What I do beyond writing code" data-es="Lo que hago más allá de escribir código">What I do beyond writing code</p>
+            <div class="lead-grid">
+
+                <article class="lead-card lead-card-wide reveal">
+                    <div class="lead-icon"><i class="fas fa-flask"></i></div>
+                    <div class="lead-body">
+                        <span class="lead-role" data-en="Leader" data-es="Líder">Leader</span>
+                        <h3 data-en="Crack The Code research seedbed" data-es="Semillero de investigación Crack The Code">Crack The Code research seedbed</h3>
+                        <span class="lead-org">Escuela Normal Superior del Distrito de Barranquilla</span>
+                        <p data-en="I lead the seedbed where we research how to teach computational thinking to kids. Out of it came ¡Viva el Carnaval!, a game that teaches 8–11 year-olds the basics of programming through the Barranquilla Carnival — you can play its first level right here on this page." data-es="Lidero el semillero donde investigamos cómo enseñar pensamiento computacional a los niños. De ahí salió ¡Viva el Carnaval!, un juego que enseña las bases de la programación a niños de 8 a 11 años usando el Carnaval de Barranquilla — puedes jugar su primer nivel aquí mismo en esta página.">
+                            I lead the seedbed where we research how to teach computational thinking to kids. Out of it came ¡Viva el Carnaval!, a game that teaches 8–11 year-olds the basics of programming through the Barranquilla Carnival — you can play its first level right here on this page.
+                        </p>
+                        <div class="lead-shots">
+                            <img src="./static/img/semillero-2.jpg" data-zoom alt="Stand de ¡Viva el Carnaval! en la feria de la ENSDB" loading="lazy">
+                            <img src="./static/img/semillero-1.jpg" data-zoom alt="Presentando el proyecto del semillero a los estudiantes" loading="lazy">
+                        </div>
+                        <div class="lead-links">
+                            <a href="#game" class="proj-btn proj-btn-primary">
+                                <i class="fas fa-gamepad"></i>
+                                <span data-en="Play level 1" data-es="Jugar el nivel 1">Play level 1</span>
+                            </a>
+                            <a href="https://github.com/Juandi0127/VivaCarnval" target="_blank" rel="noopener" class="proj-btn">
+                                <i class="fab fa-github"></i>
+                                <span data-en="Repository" data-es="Repositorio">Repository</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lead-card reveal">
+                    <div class="lead-icon lead-icon-gold"><i class="fas fa-trophy"></i></div>
+                    <div class="lead-body">
+                        <span class="lead-role lead-role-gold" data-en="2 years among the winners" data-es="2 años entre los ganadores">2 years among the winners</span>
+                        <h3>Hackatón BAQ</h3>
+                        <span class="lead-org">Crack The Code · +Educación +Innovación · Alcaldía de Barranquilla</span>
+                        <p data-en="Two consecutive years placing among the winning teams, building innovative solutions in Python under time pressure alongside other developers." data-es="Dos años consecutivos quedando entre los equipos ganadores, construyendo soluciones innovadoras en Python contrarreloj junto a otros desarrolladores.">
+                            Two consecutive years placing among the winning teams, building innovative solutions in Python under time pressure alongside other developers.
+                        </p>
+                        <div class="lead-shots">
+                            <img src="./static/img/hackaton-1.jpg" data-zoom alt="Premiación de la Hackatón BAQ" loading="lazy">
+                            <img src="./static/img/hackaton-2.jpg" data-zoom alt="Programando durante la hackatón" loading="lazy">
+                        </div>
+                        <div class="lead-links">
+                            <a href="#certs" class="proj-btn">
+                                <i class="fas fa-certificate"></i>
+                                <span data-en="See certificate" data-es="Ver certificado">See certificate</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lead-card reveal">
+                    <div class="lead-icon lead-icon-pink"><i class="fab fa-tiktok"></i></div>
+                    <div class="lead-body">
+                        <span class="lead-role lead-role-pink" data-en="Content creator" data-es="Creador de contenido">Content creator</span>
+                        <h3 data-en="Programming &amp; AI, on video" data-es="Programación e IA, en video">Programming &amp; AI, on video</h3>
+                        <span class="lead-org">TikTok @juamdi.ww · Instagram @j.vanegass</span>
+                        <p data-en="I share what I build and what I learn: programming, AI agents, automation and the behind-the-scenes of my projects." data-es="Comparto lo que construyo y lo que aprendo: programación, agentes de IA, automatización y el detrás de cámaras de mis proyectos.">
+                            I share what I build and what I learn: programming, AI agents, automation and the behind-the-scenes of my projects.
+                        </p>
+                        <div class="lead-links">
+                            <a href="https://www.tiktok.com/@juamdi.ww" target="_blank" rel="noopener" class="proj-btn">
+                                <i class="fab fa-tiktok"></i> TikTok
+                            </a>
+                            <a href="https://www.instagram.com/j.vanegass/" target="_blank" rel="noopener" class="proj-btn">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
             </div>
         </div>
     </section>
@@ -164,12 +328,44 @@
             <p class="section-subtitle reveal" data-en="Things I've built" data-es="Cosas que he construido">Things I've built</p>
             <div class="projects-grid">
 
-                <!-- ENSDB Library — featured -->
+                <!-- ¡Viva el Carnaval! — featured -->
                 <div class="project-card project-featured reveal">
                     <div class="project-img">
-                        <img src="./static/img/ENSBD 1.jpeg" alt="ENSDB Library">
+                        <img src="./static/img/viva-carnaval.jpg" alt="¡Viva el Carnaval! — educational game" loading="lazy">
                         <div class="project-overlay">
-                            <a href="https://www.ensdblibrary.online" target="_blank" class="overlay-btn" data-en="Live Demo" data-es="Ver en vivo">Live Demo</a>
+                            <a href="#game" class="overlay-btn" data-en="Play here" data-es="Jugar aquí">Play here</a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <h3 class="project-name">¡Viva el Carnaval!</h3>
+                            <span class="badge badge-play" data-en="Playable" data-es="Jugable">Playable</span>
+                        </div>
+                        <p class="project-desc" data-en="Educational 2D game that teaches computational thinking to 8–11 year-olds through the Barranquilla Carnival. Kids build arrow sequences to guide Karlitos across the Paseo Bolívar, and the Wise Marimonda explains every mistake. Built in Unity with the Crack The Code research seedbed I lead — the first level is ported to the web right on this page." data-es="Videojuego educativo 2D que enseña pensamiento computacional a niños de 8 a 11 años usando el Carnaval de Barranquilla. Los niños arman secuencias de flechas para guiar a Karlitos por el Paseo Bolívar, y la Marimonda Sabia les explica cada error. Hecho en Unity con el semillero de investigación Crack The Code que lidero — el primer nivel está portado a la web en esta misma página.">
+                            Educational 2D game that teaches computational thinking to 8–11 year-olds through the Barranquilla Carnival. Kids build arrow sequences to guide Karlitos across the Paseo Bolívar, and the Wise Marimonda explains every mistake. Built in Unity with the Crack The Code research seedbed I lead — the first level is ported to the web right on this page.
+                        </p>
+                        <div class="project-tech">
+                            <span>Unity</span><span>C#</span><span>Game Design</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#game" class="proj-btn proj-btn-primary">
+                                <i class="fas fa-gamepad"></i>
+                                <span data-en="Play level 1" data-es="Jugar el nivel 1">Play level 1</span>
+                            </a>
+                            <a href="https://github.com/Juandi0127/VivaCarnval" target="_blank" rel="noopener" class="proj-btn">
+                                <i class="fab fa-github"></i>
+                                <span data-en="Source code" data-es="Código fuente">Source code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ENSDB Library -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="./static/img/ENSBD 1.jpeg" alt="ENSDB Library" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://www.ensdblibrary.online" target="_blank" rel="noopener" class="overlay-btn" data-en="Live Demo" data-es="Ver en vivo">Live Demo</a>
                         </div>
                     </div>
                     <div class="project-body">
@@ -184,35 +380,9 @@
                             <span>Python</span><span>Flask</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JS</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://www.ensdblibrary.online" target="_blank" class="proj-btn proj-btn-primary">
+                            <a href="https://www.ensdblibrary.online" target="_blank" rel="noopener" class="proj-btn proj-btn-primary">
                                 <i class="fas fa-external-link-alt"></i>
                                 <span data-en="Live Site" data-es="Sitio en vivo">Live Site</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- HaxSuite -->
-                <div class="project-card reveal">
-                    <div class="project-img">
-                        <img src="./static/img/haxsuite 1 .jpeg" alt="HaxSuite">
-                        <div class="project-overlay">
-                            <a href="https://discord.gg/DNxSYNpHf9" target="_blank" class="overlay-btn" data-en="Discord" data-es="Discord">Discord</a>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <div class="project-header">
-                            <h3 class="project-name">HaxSuite</h3>
-                        </div>
-                        <p class="project-desc" data-en="Real-time football league leaderboard website. Commissioned project displaying top scorers, assists, and live stats." data-es="Sitio web de clasificaciones en tiempo real para una liga de fútbol. Proyecto por encargo con goleadores, asistencias y estadísticas en vivo.">
-                            Real-time football league leaderboard website. Commissioned project displaying top scorers, assists, and live stats.
-                        </p>
-                        <div class="project-tech">
-                            <span>Node.js</span><span>Express</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://discord.gg/DNxSYNpHf9" target="_blank" class="proj-btn">
-                                <i class="fab fa-discord"></i> Discord
                             </a>
                         </div>
                     </div>
@@ -221,7 +391,7 @@
                 <!-- JX — AI Voice Assistant -->
                 <div class="project-card reveal">
                     <div class="project-img">
-                        <img src="./static/img/WhatsApp Image 2026-04-20 at 8.46.31 PM.jpeg" alt="JX - AI Voice Assistant">
+                        <img src="./static/img/WhatsApp Image 2026-04-20 at 8.46.31 PM.jpeg" alt="JX - AI Voice Assistant" loading="lazy">
                         <div class="project-overlay">
                             <span class="overlay-btn" data-en="Personal Project" data-es="Proyecto Personal">Personal Project</span>
                         </div>
@@ -235,7 +405,33 @@
                             My personal AI voice assistant. JX listens via microphone, answers questions with a local Llama model, manages reminders, accesses my computer, and integrates Google APIs (Maps, Gmail, and more) — all running locally.
                         </p>
                         <div class="project-tech">
-                            <span>Python</span><span>Llama (LLM)</span><span>HTML</span><span>CSS</span><span>JS</span><span>Google APIs</span>
+                            <span>Python</span><span>Llama (LLM)</span><span>AI Agents</span><span>Google APIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HaxSuite -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="./static/img/haxsuite 1 .jpeg" alt="HaxSuite" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://discord.gg/DNxSYNpHf9" target="_blank" rel="noopener" class="overlay-btn">Discord</a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <h3 class="project-name">HaxSuite</h3>
+                        </div>
+                        <p class="project-desc" data-en="Real-time football league leaderboard website. Commissioned project displaying top scorers, assists, and live stats." data-es="Sitio web de clasificaciones en tiempo real para una liga de fútbol. Proyecto por encargo con goleadores, asistencias y estadísticas en vivo.">
+                            Real-time football league leaderboard website. Commissioned project displaying top scorers, assists, and live stats.
+                        </p>
+                        <div class="project-tech">
+                            <span>Node.js</span><span>Express</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://discord.gg/DNxSYNpHf9" target="_blank" rel="noopener" class="proj-btn">
+                                <i class="fab fa-discord"></i> Discord
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -256,7 +452,7 @@
                             <span>Python</span><span>Discord.py</span><span>Discord API</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://discord.com/oauth2/authorize?client_id=1393798481319165982" target="_blank" class="proj-btn">
+                            <a href="https://discord.com/oauth2/authorize?client_id=1393798481319165982" target="_blank" rel="noopener" class="proj-btn">
                                 <i class="fab fa-discord"></i>
                                 <span data-en="Add Bot" data-es="Añadir Bot">Add Bot</span>
                             </a>
@@ -281,7 +477,7 @@
                             <span>Lua</span><span>Roblox Studio</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://www.roblox.com/es/games/110120511588833/Pick-The-Right-Color" target="_blank" class="proj-btn">
+                            <a href="https://www.roblox.com/es/games/110120511588833/Pick-The-Right-Color" target="_blank" rel="noopener" class="proj-btn">
                                 <i class="fas fa-gamepad"></i>
                                 <span data-en="Play" data-es="Jugar">Play</span>
                             </a>
@@ -293,33 +489,148 @@
         </div>
     </section>
 
+    <!-- ===== PLAYABLE GAME ===== -->
+    <section id="game">
+        <div class="container">
+            <h2 class="section-title reveal" data-en="Play: ¡Viva el Carnaval!" data-es="Juega: ¡Viva el Carnaval!">Play: ¡Viva el Carnaval!</h2>
+            <p class="section-subtitle reveal" data-en="Level 1 — Sequences · Paseo Bolívar. Build the arrow sequence and press Run." data-es="Nivel 1 — Secuencias · Paseo Bolívar. Arma la secuencia de flechas y pulsa Ejecutar.">Level 1 — Sequences · Paseo Bolívar. Build the arrow sequence and press Run.</p>
+
+            <div class="vc reveal" id="carnavalGame" tabindex="0">
+
+                <div class="vc-topbar">
+                    <div class="vc-seq">
+                        <span class="vc-seq-label" data-en="Your sequence" data-es="Tu secuencia">Your sequence</span>
+                        <div class="vc-seq-track"></div>
+                    </div>
+                    <div class="vc-stats">
+                        <div class="vc-stat">
+                            <b class="vc-counter">0/14</b>
+                            <span data-en="Blocks" data-es="Bloques">Blocks</span>
+                        </div>
+                        <div class="vc-stat">
+                            <b class="vc-min-value">8</b>
+                            <span data-en="Minimum" data-es="Mínimo">Minimum</span>
+                        </div>
+                        <div class="vc-stat">
+                            <b class="vc-attempts-value">0</b>
+                            <span data-en="Misses" data-es="Fallos">Misses</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vc-board-wrap">
+                    <div class="vc-board"></div>
+                    <div class="vc-win">
+                        <h4 data-en="You recovered the cumbia sheet music!" data-es="¡Recuperaste la partitura de la cumbia!">You recovered the cumbia sheet music!</h4>
+                        <div class="vc-masks">
+                            <img class="vc-mask" src="./static/img/game/mask-marimonda.png" alt="" loading="lazy">
+                            <img class="vc-mask" src="./static/img/game/mask-congo.png" alt="" loading="lazy">
+                            <img class="vc-mask" src="./static/img/game/mask-garabato.png" alt="" loading="lazy">
+                        </div>
+                        <p class="vc-win-score">
+                            <span data-en="Steps" data-es="Pasos">Steps</span>: <b data-win="steps">0</b> ·
+                            <span data-en="Best" data-es="Mejor">Best</span>: <b data-win="min">8</b> ·
+                            <span data-en="Misses" data-es="Fallos">Misses</span>: <b data-win="tries">0</b>
+                        </p>
+                        <p class="vc-win-lesson"></p>
+                        <button type="button" class="vc-btn vc-btn-run" data-act="close-win" data-en="Play again" data-es="Jugar otra vez">Play again</button>
+                    </div>
+                </div>
+
+                <div class="vc-msg">
+                    <img class="vc-guide-img" src="./static/img/game/marimonda-idle.png" alt="La Marimonda Sabia">
+                    <p class="vc-msg-text"></p>
+                </div>
+
+                <div class="vc-controls">
+                    <div class="vc-pad">
+                        <button type="button" class="vc-arrow" data-dir="L" aria-label="Left">←</button>
+                        <button type="button" class="vc-arrow" data-dir="D" aria-label="Down">↓</button>
+                        <button type="button" class="vc-arrow" data-dir="U" aria-label="Up">↑</button>
+                        <button type="button" class="vc-arrow" data-dir="R" aria-label="Right">→</button>
+                    </div>
+                    <div class="vc-actions">
+                        <button type="button" class="vc-btn vc-btn-run" data-act="run">
+                            <i class="fas fa-play"></i>
+                            <span data-en="Run" data-es="Ejecutar">Run</span>
+                        </button>
+                        <button type="button" class="vc-btn" data-act="undo">
+                            <i class="fas fa-delete-left"></i>
+                            <span data-en="Delete last" data-es="Borrar último">Delete last</span>
+                        </button>
+                        <button type="button" class="vc-btn" data-act="reset">
+                            <i class="fas fa-rotate-left"></i>
+                            <span data-en="Restart" data-es="Reiniciar">Restart</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <p class="game-note reveal" data-en="Tip: tap a block in your sequence to delete just that one. Keyboard: arrow keys to add, Enter to run, Backspace to delete. This is a web port of level 1 — the full game runs in Unity." data-es="Tip: toca un bloque de tu secuencia para borrar solo ese. Teclado: flechas para agregar, Enter para ejecutar, Retroceso para borrar. Esto es un port web del nivel 1 — el juego completo corre en Unity.">
+                Tip: tap a block in your sequence to delete just that one. Keyboard: arrow keys to add, Enter to run, Backspace to delete. This is a web port of level 1 — the full game runs in Unity.
+            </p>
+        </div>
+    </section>
+
     <!-- ===== CERTIFICATES ===== -->
     <section id="certs">
         <div class="container">
-            <h2 class="section-title reveal" data-en="Certificates" data-es="Certificados">Certificates</h2>
-            <p class="section-subtitle reveal" data-en="Courses and professional certifications" data-es="Cursos y certificaciones profesionales">Courses and professional certifications</p>
+            <h2 class="section-title reveal" data-en="Awards &amp; Certificates" data-es="Logros y Certificados">Awards &amp; Certificates</h2>
+            <p class="section-subtitle reveal" data-en="Recognitions, courses and professional certifications" data-es="Reconocimientos, cursos y certificaciones profesionales">Recognitions, courses and professional certifications</p>
             <div class="certs-grid" id="certsGrid">
 
-                <div class="cert-card reveal">
-                    <img src="./static/img/WhatsApp Image 2026-04-20 at 8.44.56 PM (2).jpeg" alt="Diploma en Técnicas Avanzadas de Programación y Automatización con Python">
+                <div class="cert-card cert-card-featured reveal">
+                    <img src="./static/img/cert-hackaton-baq-2026.jpg" data-zoom alt="Certificado Hackatón BAQ 2026" loading="lazy">
                     <div class="cert-card-info">
-                        <p data-en="Advanced Python Programming & Automation" data-es="Técnicas Avanzadas de Programación y Automatización con Python">Advanced Python Programming & Automation</p>
+                        <p data-en="Hackatón BAQ 2026 — among the winning teams" data-es="Hackatón BAQ 2026 — entre los equipos ganadores">Hackatón BAQ 2026 — among the winning teams</p>
+                        <span class="cert-issuer">Crack The Code · +Educación +Innovación · Alcaldía de Barranquilla · 2026</span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal">
+                    <img src="./static/img/cert-developer360.jpg" data-zoom alt="Diploma de Developer 360 — Sistema de Gestión y Automatización" loading="lazy">
+                    <div class="cert-card-info">
+                        <p data-en="Developer 360 Diploma — Management &amp; Automation Systems" data-es="Diploma de Developer 360 — Sistema de Gestión y Automatización">Developer 360 Diploma — Management &amp; Automation Systems</p>
+                        <span class="cert-issuer">STEAM Academy · 2026</span>
+                    </div>
+                </div>
+
+                <div class="cert-card cert-card-doc reveal">
+                    <img src="./static/img/cert-developer360-detalle.jpg" data-zoom alt="Certificación Developer 360 — detalle académico del primer trimestre" loading="lazy">
+                    <div class="cert-card-info">
+                        <p data-en="Developer 360 — First term, academic detail" data-es="Developer 360 — Primer trimestre, detalle académico">Developer 360 — First term, academic detail</p>
                         <span class="cert-issuer">STEAM Academy · 2026</span>
                     </div>
                 </div>
 
                 <div class="cert-card reveal">
-                    <img src="./static/img/WhatsApp Image 2026-04-20 at 8.44.56 PM (1).jpeg" alt="Diploma Profesional en Python, SQL y Ciencia de Datos">
+                    <img src="./static/img/WhatsApp Image 2026-04-20 at 8.44.56 PM (2).jpeg" data-zoom alt="Diploma en Técnicas Avanzadas de Programación y Automatización con Python" loading="lazy">
                     <div class="cert-card-info">
-                        <p data-en="Professional Diploma in Python, SQL & Data Science" data-es="Diploma Profesional en Python, SQL y Ciencia de Datos">Professional Diploma in Python, SQL & Data Science</p>
+                        <p data-en="Advanced Python Programming &amp; Automation" data-es="Técnicas Avanzadas de Programación y Automatización con Python">Advanced Python Programming &amp; Automation</p>
+                        <span class="cert-issuer">STEAM Academy · 2026</span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal">
+                    <img src="./static/img/WhatsApp Image 2026-04-20 at 8.44.56 PM (1).jpeg" data-zoom alt="Diploma Profesional en Python, SQL y Ciencia de Datos" loading="lazy">
+                    <div class="cert-card-info">
+                        <p data-en="Professional Diploma in Python, SQL &amp; Data Science" data-es="Diploma Profesional en Python, SQL y Ciencia de Datos">Professional Diploma in Python, SQL &amp; Data Science</p>
                         <span class="cert-issuer">STEAM Academy · 2025</span>
                     </div>
                 </div>
 
                 <div class="cert-card reveal">
-                    <img src="./static/img/WhatsApp Image 2026-04-20 at 8.44.56 PM.jpeg" alt="Certificado de Finalización — Robótica y Programación">
+                    <img src="./static/img/cert-python-modulo1.jpg" data-zoom alt="Certificado Python Módulo 1 — Fundamentos y Funciones Avanzadas" loading="lazy">
                     <div class="cert-card-info">
-                        <p data-en="Robotics & Programming — Completion Certificate" data-es="Certificado de Finalización — Robótica y Programación">Robotics & Programming — Completion Certificate</p>
+                        <p data-en="Python Module 1 — Fundamentals &amp; Advanced Functions" data-es="Python Módulo 1 — Fundamentos y Funciones Avanzadas">Python Module 1 — Fundamentals &amp; Advanced Functions</p>
+                        <span class="cert-issuer">STEAM Academy · Fundación STEM Colombia · 2025</span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal">
+                    <img src="./static/img/WhatsApp Image 2026-04-20 at 8.44.56 PM.jpeg" data-zoom alt="Certificado de Finalización — Robótica y Programación" loading="lazy">
+                    <div class="cert-card-info">
+                        <p data-en="Robotics &amp; Programming — Completion Certificate" data-es="Certificado de Finalización — Robótica y Programación">Robotics &amp; Programming — Completion Certificate</p>
                         <span class="cert-issuer">RobotiKids · 2020</span>
                     </div>
                 </div>
@@ -339,17 +650,27 @@
                     <span class="contact-label">Email</span>
                     <span class="contact-value">vanegasarrietajuandiego@gmail.com</span>
                 </a>
-                <a href="https://github.com/Juandi0127" target="_blank" class="contact-card reveal">
+                <a href="https://www.instagram.com/nodo.dev/" target="_blank" rel="noopener" class="contact-card reveal">
+                    <i class="fas fa-diagram-project"></i>
+                    <span class="contact-label" data-en="nodo.dev — business" data-es="nodo.dev — negocio">nodo.dev — business</span>
+                    <span class="contact-value">@nodo.dev</span>
+                </a>
+                <a href="https://github.com/Juandi0127" target="_blank" rel="noopener" class="contact-card reveal">
                     <i class="fab fa-github"></i>
                     <span class="contact-label">GitHub</span>
                     <span class="contact-value">Juandi0127</span>
                 </a>
-                <a href="https://www.instagram.com/j.vanegass/" target="_blank" class="contact-card reveal">
+                <a href="https://www.tiktok.com/@juamdi.ww" target="_blank" rel="noopener" class="contact-card reveal">
+                    <i class="fab fa-tiktok"></i>
+                    <span class="contact-label">TikTok</span>
+                    <span class="contact-value">@juamdi.ww</span>
+                </a>
+                <a href="https://www.instagram.com/j.vanegass/" target="_blank" rel="noopener" class="contact-card reveal">
                     <i class="fab fa-instagram"></i>
                     <span class="contact-label">Instagram</span>
                     <span class="contact-value">@j.vanegass</span>
                 </a>
-                <a href="https://discord.com/users/975849415300505643" target="_blank" class="contact-card reveal">
+                <a href="https://discord.com/users/975849415300505643" target="_blank" rel="noopener" class="contact-card reveal">
                     <i class="fab fa-discord"></i>
                     <span class="contact-label">Discord</span>
                     <span class="contact-value">jacedjd0127</span>
@@ -362,11 +683,12 @@
     <footer>
         <div class="container footer-inner">
             <span class="footer-logo"><span class="logo-bracket">&lt;</span>Juandi<span class="logo-bracket">/&gt;</span></span>
-            <p data-en="Built with HTML, CSS & JavaScript" data-es="Construido con HTML, CSS y JavaScript">Built with HTML, CSS & JavaScript</p>
-            <p class="footer-copy">© 2025 Juan Vanegas</p>
+            <p data-en="Built with HTML, CSS &amp; JavaScript · Game ported from Unity" data-es="Construido con HTML, CSS y JavaScript · Juego portado desde Unity">Built with HTML, CSS &amp; JavaScript · Game ported from Unity</p>
+            <p class="footer-copy">© 2026 Juan Vanegas · nodo.dev</p>
         </div>
     </footer>
 
     <script src="./static/js/script.js"></script>
+    <script src="./static/js/game.js"></script>
 </body>
 </html>
